@@ -41,7 +41,7 @@ Temporary workaround: use batch script to automatically revert snapshot then sta
 ```bat
 %VMRUN% revertToSnapshot %VMX_PATH% %SNAP_NAME%
 %VMRUN% start %VMX_PATH% nogui
-
+```
 Registered this batch file into Windows Task Scheduler. This workflow functioned in short‑term tests.
 ##Root cause & final fix (2026‑09‑07)
 I discovered the root cause: the service listening address was set to `0.0.0.0`, which caused address binding conflicts.
