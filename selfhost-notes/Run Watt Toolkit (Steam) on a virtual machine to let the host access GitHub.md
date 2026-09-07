@@ -52,5 +52,3 @@ Steps taken:
 After modification, proxy service operated normally.
 
 Writer: Swuty3 Record Date: 2026-09-07
-
-However I learned that Watt Toolkit depends on built‑in node addresses. Repeated snapshot rollbacks will eventually lead to node invalidation, meaning this temporary solution cannot work permanently and a fresh VM instance would be required eventually.
