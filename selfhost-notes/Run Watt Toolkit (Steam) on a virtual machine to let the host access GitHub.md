@@ -43,7 +43,7 @@ Temporary workaround: use batch script to automatically revert snapshot then sta
 %VMRUN% start %VMX_PATH% nogui
 ```
 Registered this batch file into Windows Task Scheduler. This workflow functioned in short‑term tests.
-##Root cause & final fix (2026‑09‑07)
+## Root cause & final fix (2026‑09‑07)
 I discovered the root cause: the service listening address was set to `0.0.0.0`, which caused address binding conflicts.
 Steps taken:
 1. Re-configure Watt Toolkit service bind address to the virtual machine's LAN IP instead of 0.0.0.0 / localhost.
