@@ -52,3 +52,9 @@ Steps taken:
 After modification, proxy service operated normally.
 
 Writer: Swuty3 Record Date: 2026-09-07
+
+##Disclaimer
+ 
+This document records my personal experimental process.
+Improper proxy‑related configuration may cause network failure. Operate with caution.
+For learning reference only.
