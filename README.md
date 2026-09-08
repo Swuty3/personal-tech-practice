@@ -11,8 +11,6 @@ For learning purposes only, not production‑ready.
 - **`cybersecurity-notes/`**: Cybersecurity & CTF study notes.
 - **`misc-scripts/`**: Miscellaneous small scripts.
 
-> Note: Stand‑alone complete projects (e.g. Base64 encoder‑decoder) are stored in separate repositories.
-
 ## ⚠️ Disclaimer
 All content here represents my personal learning records.
 No guarantees for correctness. Do not use in production environments.
